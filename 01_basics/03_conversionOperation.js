@@ -46,3 +46,21 @@ console.log(typeof BooleanConversion);
 // 1 => true; 0 => false
 //"" => false
 // "pk" => true
+
+// ***************operations*************
+
+let value = 9;
+let negativeValue = -value;
+
+console.log(negativeValue);
+
+
+let str1 = "hello";
+let str2 = "world";
+
+let str3 = str1 + str2;
+console.log(str3);
+
+console.log("1" + 2); // 12
+console.log(1 + 2 + "2"); // 32
+console.log("1" + 2 + 3); // 123
