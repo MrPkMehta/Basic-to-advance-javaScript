@@ -57,3 +57,40 @@ console.log(Object.entries(tindereUser));
 
 
 
+//destructuring the object
+const course = {
+    courseName: "JavaSript",
+    price: "999",
+    courseInstructor: "Hitesh Sir"
+}
+
+//this is the simplest way to fetch the data from the object 
+console.log(course.courseInstructor);
+
+//but if we want to fetch this data multiple times then we destructure this data
+
+const {courseInstructor} = course
+
+console.log(courseInstructor);
+
+//we can also give the key as a alies means nickname like 
+const {courseInstructor: faculty} = course;
+
+console.log(faculty);
+
+
+
+
+// Concept of API
+//OUR work is given to someone else is called API
+
+//API is in Json Form
+
+// difference Object have a name but the Json does not have name
+//Like this
+
+// {
+//     courseName: "JavaSript",
+//     price: "999",
+//     courseInstructor: "Hitesh Sir"
+// }
