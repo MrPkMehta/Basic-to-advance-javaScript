@@ -72,6 +72,9 @@ console.log(addOne(4)) //if we call this function above the function then also i
 //another way 
 
 console.log(addTwo(6)); // gives error ..not execute because we put the function in a variable and we can not call the variable before its declaration
+
+
+
 const addTwo = function addThree(num2) {
     return num2 + 2
 }
