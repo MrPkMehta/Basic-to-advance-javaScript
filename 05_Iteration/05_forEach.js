@@ -62,3 +62,17 @@ myCoding.forEach( (item)=> {
 myCoding.forEach((element) => {
     console.log(element.languageName);
 });
+
+
+
+const myCodingLang = myCoding.forEach((element) => {
+    console.log(element.languageName);
+});
+
+
+//gives undefind because we can not hold for each loop in any variable
+console.log(myCodingLang);
+
+
+
+
