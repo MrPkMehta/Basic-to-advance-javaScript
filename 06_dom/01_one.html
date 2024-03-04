@@ -1,0 +1,44 @@
+<!-- DOM- Document Object Model -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom Learning</title>
+    <style>
+        .bg-black {
+            background-color: #212121;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div>
+        <h1 id="title" class="heading">DOM learning on Chai aur Code <span style="display: none;">Lorem, ipsum dolor.</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+</body>
+</html>
+
+
+<!-- innerText => the text which is visible on the web page -->
+
+<!-- textContent => All the text present on the code like hidden text also -->
+
+<!-- innerHTML => It will give all the value of the html like  hear in the span tag which is inside the h1 tag-->
+
+<!-- query selector
+document.getElementByClassName('heading') =>  we get the html collection
+
+document.querySelector('h2') => it will select first h2 in the code, we can select anything with the help of query selector like if we want to select with the help of class name then we can select document.querySelector(.className) same in the id case means we can select all the CSS selector with the help of querySelector-->
+
+
+<!-- document.querySelectorAll('h1' ) =>  it will select all the h1 tag -->
+
+<!-- we can easily manupulate the page value from query selector and giving style like .forEach (function(g) {
+    g.style.color = blue;
+    g.style.backgroundColor = white;
+})  and etc we can do all the css things using html-->
+
