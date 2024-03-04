@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+
+
+<!-- javascript -->
+<script>
+    const parent = document.querySelector('.parent');
+    console.log(parent); //it will give the parent class object
+    console.log(parent.children); //gives html collection
+    console.log(parent.children[2]); //we can also access the children element but it is im html form
+    console.log(parent.children[2].innerHTML); //now it will give the innerhtml written in the 2nd index that is wednesday
+
+
+    //it will gives all the childern text
+    for (let i = 0; i < parent.children.length; i++) {
+        const element = parent.children[i].innerHTML;
+        console.log(element);
+        
+    }
+    //it converts the 1st children to green color
+    parent.children[1].style.color = "green";
+
+    //we can also select the the first and last element directly
+    //gives the first element that is monday
+    console.log(parent.firstElementChild);
+    //gives last element that is Thursday
+    console.log(parent.lastElementChild);
+
+    //it will gives only monday
+    const dayOne = document.querySelector('.day')
+    console.log(dayOne);
+    //we can also render frm child to parent
+    console.log(dayOne.parentElement);
+    console.log(dayOne.nextElementSibling); //gives tuesday
+
+    console.log("NODES: ", parent.childNodes); //it will give long node list
+</script>
+</html>
