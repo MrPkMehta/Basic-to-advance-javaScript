@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chai aur Code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    
+</body>
+
+
+<!-- javascript -->
+<script>
+    // to create element using js
+    const div  = document.createElement('div')
+    console.log(div);
+    div.className = "main" //set class name as main
+    div.id = Math.round(Math.random() * 10 +1) //just for fun
+    div.setAttribute("title", "genereted title") //set the attribute title
+    div.style.backgroundColor = "green" //set bg green
+    div.style.padding = "12px" //gives pixel as 12 
+    // div.innerHTML = "Chai aur Code"  //it will override the valu so we avoid using it
+    const addText = document.createTextNode("Chai aur Code")
+    div.appendChild(addText) //it will display on the console
+
+
+    // we have created the class gives padding backgroundColor classNme etc but now it is not showing on web because now it is stored in the memory for show ont the web we have to do furthe task
+
+    // now it will display on the web 
+    document.body.appendChild(div)
+</script>
+</html>
