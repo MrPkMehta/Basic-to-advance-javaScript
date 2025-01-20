@@ -94,3 +94,6 @@ console.log(faculty);
 //     price: "999",
 //     courseInstructor: "Hitesh Sir"
 // }
+
+
+//to study the json code we can simply use the json formater
