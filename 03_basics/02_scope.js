@@ -1,4 +1,4 @@
-//scope any code insise the curly braces is called scope of that code{} means that code do not fetch data from outside that block or scope
+ //scope any code insise the curly braces is called scope of that code{} means that code do not fetch data from outside that block or scope
 
 
 //it is outside of the  scope
