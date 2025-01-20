@@ -3,6 +3,9 @@ const name1 = ["nikhil", "ankur", "anand"];
 
  name.push(name1);
  console.log(name); //consider 2nd array as a one element
+  //OUTPUT: [ 'pk', 'aditya', 'harsh', [ 'nikhil', 'ankur', 'anand' ] ]
+ console.log(name[3][1]) //to access the element of the name 1, but this approach is wrong
+
 
 name.concat(name1);
 console.log(name); //it will also consider 2nd array as one element
